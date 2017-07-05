@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/rpwoodbu/code/kicad/tssop_14_breakout/tssop_14_breakout.sch)
-    (date "Tue 04 Jul 2017 12:19:42 AM EDT")
-    (tool "Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1")
+    (source /home/jbebel/tssop_14_breakout/tssop_14_breakout.sch)
+    (date "Tue 04 Jul 2017 06:22:45 PM EDT")
+    (tool "Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value TSSOP-14)
-      (footprint Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm)
+      (footprint TSSOP:TSSOP-14_4.4x5mm_Pitch0.65mm)
       (libsource (lib tssop-14) (part TSSOP-14))
       (sheetpath (names /) (tstamps /))
       (tstamp 595B161F))
@@ -75,7 +75,7 @@
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical tssop-14)
-      (uri /home/rpwoodbu/code/kicad/tssop_14_breakout/tssop-14.lib)))
+      (uri /home/jbebel/tssop_14_breakout/tssop-14.lib)))
   (nets
     (net (code 1) (name "Net-(J1-Pad5)")
       (node (ref J1) (pin 5))
